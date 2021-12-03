@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+h1 {
+  color: violet;}
+h3 {color:violet;}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: width 1s ease;
+}
+
+div:hover {
+  width: 900px;
+}
+
+p.double {border-style: double;}
+  
+
+body {
+  background: url("fla.jpg") no-repeat right top , url("fundo.png") repeat ;
+}
+
+ 
+</style>
+</head>
+<body>
+<h1> Transição </h1>
+
+<div> <h3>passe o mouse aqui</h3></div>
+<p class="double"> muito legal ne? </p>
+
+
+</body>
+</html>
